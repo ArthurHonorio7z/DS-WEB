@@ -1,7 +1,9 @@
-"# DS-WEB" 
+"#Aula 1"
 
-- 🐱‍👤 Estudando no SESI com integração SENAI
-- 📚Cursando Desenvolvimento de Sistemas
-- 👾 Comunicativo e participativo em grupos
-- 🤔 Estou procurando ajuda em ganhar experiencias na área
-- 📧 arthurhonorio2008@gmail.com 
+- Como adicinar título
+- Como adicionar parágrafo
+    - Como mudar a cor do texto
+- Como adicionar imagem
+- Como adicionar um botão
+- Como adicionar uma quebra de linha
+- Como mudar a cor de fundo

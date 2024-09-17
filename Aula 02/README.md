@@ -1,0 +1,17 @@
+"#Aula 2"
+- Aprendizado sobre as TAGs de texto
+    - Strong
+    - Itálico
+    - Emphasized
+    - Bold
+    - Mark
+    - Small
+    - Dell
+    - Insert
+    - Subscript
+    - Supscript
+- Aprendizado sobre hyperlinks 
+    - Como adicionar um hyperlink sobre o botão
+- Criação de tabelas 
+    - Como juntar células 
+    - Como criar bordas da tabela
