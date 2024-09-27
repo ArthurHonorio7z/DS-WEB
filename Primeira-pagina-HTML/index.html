@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icone.png">   
+    <title>SportZone</title>
+</head>
+<body style="background-color:orangered;">
+
+    <div style="background-color:black;color:white;padding:25px; text-align:start;">
+        <h1><strong>Bem vindo a SportZone!</strong></h1>
+        <p>Venha se matricular em nossa academia!</p>
+        <img src="img1.jpg" width="512px" height="311px">
+        <table border="5px">
+            <tr>
+                <th colspan="2"> Horarios de funcionamento</th>
+                <th>Dias da semana</th>
+            </tr>
+            <tr>
+                <td>5:30 - 23:00</td>
+                <td> Abre e encerramento </td>
+                <td>Segunda - Sabádo</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:30</td>
+                <td>Aulas de Pilates</td>
+                <td>Terça e Quinta</td>
+            </tr>
+            <tr>
+                <td>15:00 - 16:30</td>
+                <td>Aulas de Zumba</td>
+                <td>Segunda e Quarta</td>
+            </tr>
+            <tr>
+                <td>8:00 - 10:00</td>
+                <td>Aulas de Natação</td>
+                <td>Quinta e Sábado</td>
+            </tr>
+        </table>
+        <p><i>Pontos <b>positivos</b> da prática de exercícios físicos!</i></p>
+        <ol>
+            <li>Academia<input type="checkbox" value="academia"></li>
+            
+            <ol>
+                <li>Mais energia</li>
+                <li>Corpo mais forte</li>
+                <li>Sono melhor</li>
+                <li>Manter uma prática ativa</li>
+            </ol>
+            <li>Pilates<input type="checkbox" value="pilates"></li>
+                <ol>
+                    <li>Pode ser feito por todos</li>
+                    <li>Conecta corpo e mente</li>
+                    <li>Melhora a postura</li>
+                </ol>
+            <li>Zumba<input type="checkbox" value="zumba"></li>
+            <ol>
+                <li>Queima de calorias</li>
+                <li>Disponivel para todos</li>
+                <li>Alivia o estresse</li>
+                <li>Melhora a coordenação</li>
+            </ol>
+            <li>Natação<input type="checkbox" value="natacao"></li>
+                <ol>
+                    <li>Ajuda a crescer</li>
+                    <li>Aumenta a capacidade pulmonar</li>
+                    <li>Melhora a coordenação</li>
+                </ol>
+        </ol>
+        <input type="submit" value="Enviar preferência">
+
+       <div style="background-color: orangered;"><h2>Realize seu cadastro em nossa academia!</h2>
+        <form action="/cadastro" method="post"></form>
+        
+        <label>Nome : </label>
+        <input type="text"required name="nomecompleto"placeholder="Insira seu nome completo">
+        <br><br>
+        <label>Seu CPF :</label>
+        <input type="text" required minlength="11" maxlength="11" placeholder="Insira seu CPF">
+        <br><br>
+        <label>Sua data de nascimento :</label>
+        <input type="date" required name="nascimento" >
+        <br><br>
+        <label>Endereço completo :</label>
+        <input type="text" required name="enedereco" placeholder="Insira seu enderaço">
+        <br><br>
+        <label>Telefone celular :</label>
+        <input type="text" name="telefone" id="telefone" maxlength="11" minlength="11" placeholder="Digite seu telefone com DDD">
+        <br><br>
+        <label>E-mail :</label>
+        <input type="email" placeholder="Insira seu e-mail" name="email">
+        <br><br>
+        <label>Sexo :</label>
+        <br>
+        <label>Masculino</label>
+        <input type="checkbox" placeholder="Maculino" name="Masculino">
+        <br>
+        <label>Feminino</label>
+        <input type="checkbox" placeholder="Feminino" name="Feminino">
+        <br>
+        <label>Outro</label>
+        <input type="checkbox" placeholder="Outro" name="outro">
+        <br><br>
+        <input type="submit">
+    </div>
+    <h2>Visite o site do nosso patrocinador de suplementação!</h2>
+    <img src="imagem growth.png"><br>
+    <a href="https://www.gsuplementos.com.br/?srsltid=AfmBOopiuyNVTjWYdAYfb2u8RpEoFajbJoKzWZle9ExA4STiK5yOox0Z" target="_blank"><button>Clique aqui!</button></a>
+</body>
+</html>
