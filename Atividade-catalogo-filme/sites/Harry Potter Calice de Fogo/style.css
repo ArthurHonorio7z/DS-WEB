@@ -1,0 +1,43 @@
+h1{
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    background-color: red;
+    border-radius: 10%;
+    color: #daa520;
+}
+h2{
+    background-color: red;
+    max-width: max-content;
+    border-radius: 10%;
+    color: #daa520;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info{
+    background-color: red;
+    max-width: max-content;
+    border-radius: 5%;
+    color: #daa520;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    background-color: red;
+    max-width: max-content;
+    color: #daa520;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    background-color: red;
+    max-width: max-content;
+    font-size: x-large;
+    color: #daa520;
+    font-family: 'Times New Roman', Times, serif;
+}
+.infoS{
+    background-color: red;
+    max-width:40%;
+    border-radius: 10%;
+    color: #daa520;
+    font-family: 'Times New Roman', Times, serif;
+}
