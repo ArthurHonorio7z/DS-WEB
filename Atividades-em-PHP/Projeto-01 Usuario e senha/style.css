@@ -1,0 +1,37 @@
+.tittle{
+    text-align: center;
+    background-color: red;
+    color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20%;
+}
+.quest{
+    padding: 3%;
+    background-color: grey;
+    max-width: fit-content;
+    border: 2px black solid;
+
+}
+.autorizado{
+    background-color: green;
+    color: antiquewhite;
+    max-width: max-content;
+}
+.negado{
+    background-color: red;
+    color: antiquewhite;
+    max-width: max-content;
+}
+.sub{
+    background-color: red;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 15%;
+    
+}
+.verif{
+    padding: 3%;
+    background-color: grey;
+    max-width: fit-content;
+    border: 2px black solid;
+}
