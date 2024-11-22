@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeitos</title>
+    <style>
+        body{
+            background: linear-gradient(45deg,rgb(235, 196, 245),rgb(154, 61, 204));
+            background-repeat: no-repeat;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            height: 100vw;
+            align-items: center;
+        }
+        .scale {
+            width: 100px;
+            height: 100px;
+            background-color: #a11dca;
+            transition: transform 0.5s;
+        }
+        .scale:hover {
+            transform: scale(1.5);
+        }
+        .rotate {
+            width: 100px;
+            height: 100px;
+            background-color: #a11dca;
+            transition: transform 0.5s;
+        }
+        .rotate:hover {
+            transform: rotate(135deg);
+        }
+
+        .translate{
+            width: 100px;
+            height: 100px;
+            background-color: #a11dca;
+            transition: transform 0.5s;
+        }
+        .radius {
+            width: 100px;
+            height: 100px;
+            background-color: #a11dca;
+            text-align: center;
+            border-radius: 70%;
+        }
+
+        .translate:hover {
+            transform: translate(50px, 50px);
+        }
+
+        .gradiente {
+            width: 200px;
+            height: 100px;
+            background: linear-gradient(45deg, #b669d9, #9b59b6);
+        }
+    
+        .opacity {
+            width: 100px;
+            height: 100px;
+            background-color: #a11dca;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+
+        .opacity:hover {
+            opacity: 0.5;
+        }
+
+        @keyframes moverEfeito {
+        0% {
+        transform: translateX(0);
+        background-color: rgb(166, 0, 255);
+        }
+        50% {
+        transform: translateX(200px);
+        background-color: rgb(89, 0, 253);
+        }
+        100% {
+        transform: translateX(0);
+        background-color: rgb(39, 0, 71);
+        }
+        }
+        
+        .keyframes {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation: moverEfeito 4s ease-in-out infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box scale">scale</div><br>
+        <div class="box rotate">rotate</div><br>
+        <div class="box translate">translate</div><br>
+        <div class="box radius">Radius</div><br>
+        <div class="box gradiente">gradiente</div><br>
+        <div class="box opacity">opacity</div><br>
+        <div class="box keyframes">@keyframes + animations</div><br>
+    </div>
+</body>
+</html>
